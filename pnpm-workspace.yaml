@@ -1,0 +1,4 @@
+allowBuilds:
+  '@swc/core': false
+  esbuild: false
+  ttf2woff2: false

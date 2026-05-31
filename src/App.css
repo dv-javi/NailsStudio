@@ -1,0 +1,27 @@
+#root {
+  width: 100vw;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+.main-content {
+  margin-left: 240px;
+  flex: 1;
+  min-height: 100vh;
+  transition: margin-left 0.25s ease;
+}
+
+.main-content.collapsed {
+  margin-left: 90px;
+}
+
+@media (max-width: 768px) {
+  .main-content {
+    margin-left: 0px;
+  }
+
+  .main-content.collapsed {
+    margin-left: 0px;
+  }
+}

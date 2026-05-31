@@ -1,0 +1,409 @@
+.sobre-mi-page {
+  padding: 4rem 2rem 8rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 3.5rem;
+}
+
+/* ── Header ── */
+
+.sobre-mi-header {
+  max-width: 640px;
+}
+
+.sobre-mi-eyebrow {
+  display: inline-block;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #d48ba3;
+  margin-bottom: 0.75rem;
+}
+
+.sobre-mi-title {
+  font-size: clamp(2.5rem, 6vw, 4rem);
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 900;
+  color: #1e1e1e;
+  line-height: 1;
+}
+
+.sobre-mi-subtitle {
+  margin-top: 0.75rem;
+  font-size: 1.05rem;
+  line-height: 1.6;
+  color: #888;
+  max-width: 520px;
+}
+
+/* ── Intro ── */
+
+.sobre-mi-intro {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2.5rem;
+  align-items: center;
+}
+
+.sobre-mi-photo-card {
+  position: relative;
+  width: 100%;
+  max-width: 420px;
+  margin: 0 auto;
+  border-radius: 28px;
+  overflow: hidden;
+  box-shadow: 0 20px 50px rgba(196, 84, 122, 0.15);
+  border: 2px solid #eadede;
+  background: #fff;
+}
+
+.sobre-mi-photo {
+  width: 100%;
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
+  display: block;
+}
+
+.sobre-mi-photo-badge {
+  position: absolute;
+  bottom: 1.25rem;
+  left: 1.25rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.6rem 1rem;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.92);
+  backdrop-filter: blur(8px);
+  border: 2px solid #eadede;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #2a2a2a;
+}
+
+.sobre-mi-photo-badge i {
+  color: #d48ba3;
+  font-size: 1rem;
+}
+
+.sobre-mi-story {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.sobre-mi-story-title {
+  font-size: clamp(1.75rem, 4vw, 2.5rem);
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 800;
+  color: #1e1e1e;
+  line-height: 1.15;
+}
+
+.sobre-mi-story-title span {
+  font-style: italic;
+  color: #eb96b2;
+}
+
+.sobre-mi-story p {
+  font-size: 1rem;
+  line-height: 1.75;
+  color: #555;
+}
+
+.sobre-mi-quote {
+  display: flex;
+  gap: 0.75rem;
+  align-items: flex-start;
+  margin: 0.5rem 0 0;
+  padding: 1.25rem 1.5rem;
+  border-radius: 16px;
+  background: #f7efef;
+  border-left: 4px solid #d48ba3;
+  font-size: 1.05rem;
+  font-style: italic;
+  line-height: 1.6;
+  color: #3a3a3a;
+}
+
+.sobre-mi-quote i {
+  flex-shrink: 0;
+  font-size: 1.5rem;
+  color: #eb96b2;
+  margin-top: 0.15rem;
+}
+
+/* ── Stats + values (bloque unificado) ── */
+
+.sobre-mi-defines {
+  display: flex;
+  flex-direction: column;
+  gap: 2.25rem;
+  padding: 2rem;
+  border-radius: 24px;
+  background: #fff;
+  border: 2px solid #eadede;
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.04);
+}
+
+.sobre-mi-stats {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.75rem;
+}
+
+.sobre-mi-stat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 0.5rem;
+  min-height: 96px;
+  padding: 1.25rem 0.75rem;
+  border-radius: 16px;
+  background: #fdf3f5;
+  border: 1px solid #f0e0e6;
+  transition:
+    transform 0.2s ease,
+    background 0.2s ease;
+}
+
+.sobre-mi-stat:hover {
+  transform: translateY(-2px);
+  background: #f7efef;
+}
+
+.sobre-mi-stat-value {
+  font-family: inherit;
+  font-size: clamp(1.5rem, 3.5vw, 2rem);
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  font-variant-numeric: tabular-nums;
+  color: #c4547a;
+}
+
+.sobre-mi-stat-label {
+  font-size: clamp(0.7rem, 2vw, 0.85rem);
+  font-weight: 500;
+  line-height: 1.35;
+  color: #666;
+}
+
+.sobre-mi-values-block {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  padding-top: 2rem;
+  border-top: 1px solid #f0e0e6;
+}
+
+.sobre-mi-values-header {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.sobre-mi-section-title {
+  margin: 0;
+  font-size: clamp(1.35rem, 2.5vw, 1.75rem);
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 800;
+  color: #1e1e1e;
+  line-height: 1.2;
+}
+
+.sobre-mi-section-subtitle {
+  margin: 0;
+  font-size: 0.95rem;
+  line-height: 1.5;
+  color: #888;
+}
+
+.sobre-mi-values-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+
+.sobre-mi-value-card {
+  padding: 1.75rem;
+  border-radius: 16px;
+  background: #fdf3f5;
+  border: 1px solid #f0e0e6;
+  transition:
+    transform 0.2s ease,
+    background 0.2s ease;
+}
+
+.sobre-mi-value-card:hover {
+  transform: translateY(-3px);
+  background: #f7efef;
+}
+
+.sobre-mi-value-icon {
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  background: #fdf3f5;
+  border: 2px solid #eadede;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.sobre-mi-value-icon i {
+  font-size: 1.4rem;
+  color: #d48ba3;
+}
+
+.sobre-mi-value-card h3 {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #1e1e1e;
+  margin-bottom: 0.5rem;
+}
+
+.sobre-mi-value-card p {
+  font-size: 0.95rem;
+  line-height: 1.65;
+  color: #777;
+}
+
+/* ── CTA ── */
+
+.sobre-mi-cta {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  padding: 2rem;
+  border-radius: 24px;
+  background: linear-gradient(135deg, #fdf3f5 0%, #f7efef 50%, #fff 100%);
+  border: 2px solid #eadede;
+}
+
+.sobre-mi-cta-content h2 {
+  font-size: clamp(1.5rem, 3vw, 2rem);
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 800;
+  color: #1e1e1e;
+  line-height: 1.2;
+}
+
+.sobre-mi-cta-content p {
+  margin-top: 0.5rem;
+  font-size: 1rem;
+  color: #888;
+}
+
+.sobre-mi-cta-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.sobre-mi-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.6rem;
+  width: 100%;
+  max-width: 320px;
+  height: 56px;
+  padding: 0 1.5rem;
+  border-radius: 30px;
+  border: 2px solid #eadede;
+  font-size: 1rem;
+  font-family: inherit;
+  cursor: pointer;
+  transition:
+    background 0.2s ease,
+    transform 0.2s ease;
+}
+
+.sobre-mi-btn.primary {
+  background: #e6cbea;
+  color: #1e1e1e;
+}
+
+.sobre-mi-btn.secondary {
+  background: #fff;
+  color: #1e1e1e;
+}
+
+.sobre-mi-btn:hover {
+  transform: translateY(-2px);
+  background: #f5f0f8;
+}
+
+.sobre-mi-btn.secondary:hover {
+  background: #fdf3f5;
+}
+
+.sobre-mi-cta-actions a {
+  display: contents;
+}
+
+/* ── Responsive ── */
+
+@media (min-width: 768px) {
+  .sobre-mi-page {
+    padding: 4rem 3rem 8rem;
+  }
+
+  .sobre-mi-intro {
+    grid-template-columns: minmax(280px, 380px) 1fr;
+    gap: 3rem;
+  }
+
+  .sobre-mi-photo-card {
+    margin: 0;
+  }
+
+  .sobre-mi-defines {
+    padding: 2.5rem;
+    gap: 2.5rem;
+  }
+
+  .sobre-mi-stats {
+    gap: 1rem;
+  }
+
+  .sobre-mi-stat {
+    min-height: 110px;
+    padding: 1.5rem 1rem;
+  }
+
+  .sobre-mi-values-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .sobre-mi-cta {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2.5rem 3rem;
+  }
+
+  .sobre-mi-cta-actions {
+    flex-direction: row;
+    flex-shrink: 0;
+  }
+}
+
+@media (max-width: 380px) {
+  .sobre-mi-defines {
+    padding: 1.5rem 1.25rem;
+  }
+
+  .sobre-mi-stat {
+    min-height: 88px;
+    padding: 1rem 0.5rem;
+  }
+
+}

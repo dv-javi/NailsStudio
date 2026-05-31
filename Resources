@@ -1,0 +1,15 @@
+/* ── Verrtical Ipad ── */
+@media (min-width: 768px) and (max-width: 1080px) and (orientation: portrait) {
+}
+
+/* ── Horizontal Ipad ── */
+@media (min-width: 768px) and (max-width: 1280px) and (orientation: landscape) {
+}
+
+/* ── Macbook ── */
+@media (min-width: 1280px) {
+}
+
+/* ── Desktop Screens ── */
+@media (min-width: 1670px) {
+}

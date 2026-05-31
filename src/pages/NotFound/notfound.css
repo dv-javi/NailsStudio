@@ -1,0 +1,23 @@
+.n404 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+
+  transform: translateY(-7vh);
+  align-items: center;
+  font-family: nippo;
+}
+
+.n404-wr {
+  margin-bottom: 3rem;
+  font-family: nippo;
+}
+
+.n404-wr:last-child {
+  margin-bottom: 0;
+}
+
+.ftd {
+  display: grid;
+}
