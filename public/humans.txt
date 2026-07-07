@@ -1,0 +1,14 @@
+/* TEAM */
+Owner: Grace
+Role: Nail Artist & Studio Owner
+Site: https://gb-nails.vercel.app
+Location: Lima, Peru
+
+/* SITE */
+Last update: 2026/07/07
+Standards: HTML5, CSS3, TypeScript, React
+Components: Vite, React Router
+Software: Cursor, VS Code
+
+/* THANKS */
+Clients and everyone who trusts Nailstudio Grace.

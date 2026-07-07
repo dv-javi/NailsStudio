@@ -1,0 +1,30 @@
+# Nailstudio Grace
+
+> Professional nail studio portfolio. Replace this file with accurate business details before launch.
+
+## About
+
+Nailstudio Grace is a nail art studio offering manicure, pedicure, nail designs, and online booking.
+
+- Website: https://your-domain.com
+- Language: Spanish (es)
+- Primary audience: Local clients seeking nail services
+
+## Key pages
+
+- Home: https://gb-nails.vercel.app
+- Designs: https://gb-nails.vercel.app/Disenos
+- Services: https://gb-nails.vercel.app/servicios
+- About: https://gb-nails.vercel.app/sobre-mi
+- Reviews: https://gb-nails.vercel.app/resenas
+
+## Usage guidelines
+
+- You may summarize public page content for search and assistant use.
+- Do not invent prices, availability, or services not listed on the site.
+- Prefer linking to https://gb-nails.vercel.app  for the latest information.
+
+## Optional
+
+- Sitemap: https://gb-nails.vercel.app/sitemap.xml
+- Social preview image: https://gb-nails.vercel.app/og-image.jpg

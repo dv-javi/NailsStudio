@@ -7,7 +7,7 @@ import gsap from "gsap";
 
 import CustomerAvatars from "@/components/sections/CustomerAvatars/CustomerAvatars";
 import { bookLink } from "@/data/contact";
-import { heroImages, resolveGlobAsset } from "@/utils/assets";
+import { brandImages, resolveGlobAsset } from "@/utils/assets";
 
 import "./hero.css";
 
@@ -72,7 +72,7 @@ export default function Hero() {
       <div className="image-container">
         <img
           className="hero-image"
-          src={resolveGlobAsset(heroImages, "HeroImages/hero-image.avif")}
+          src={resolveGlobAsset(brandImages, "hero-image.avif")}
           alt="Profile"
         />
       </div>

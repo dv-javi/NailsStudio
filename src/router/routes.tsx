@@ -5,7 +5,7 @@ import Disenos from "@/pages/Disenos/Disenos";
 import Servicios from "@/pages/Servicios/Servicios";
 import SobreMi from "@/pages/SobreMi/SobreMi";
 import Resenas from "@/pages/Resenas/Resenas";
-import NotFound from "@/pages/NotFound/NotFound";
+import NotFound from "@/pages/NotFound";
 
 export const appRoutes: RouteObject[] = [
   { path: "/", element: <Home /> },

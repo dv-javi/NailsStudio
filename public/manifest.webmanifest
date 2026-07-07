@@ -1,0 +1,40 @@
+{
+  "name": "Nailstudio Grace",
+  "short_name": "Nailstudio",
+  "description": "Estudio de uñas profesional. Diseños, servicios y reservas online.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#fdf3f5",
+  "theme_color": "#7e60c9",
+  "lang": "es",
+  "dir": "ltr",
+  "categories": ["beauty", "lifestyle"],
+  "icons": [
+    {
+      "src": "/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+# https://www.robotstxt.org/robotstxt.html
+User-agent: *
+Allow: /
+
+# Replace with your production domain
+Sitemap: https://gb-nails.vercel.app/sitemap.xml
+
+# Optional: block AI crawlers you do not want indexing training data
+# User-agent: GPTBot
+# Disallow: /

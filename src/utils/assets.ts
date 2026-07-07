@@ -20,8 +20,8 @@ export const brandImages = import.meta.glob(
   { eager: true },
 ) as EagerGlobModule;
 
-export const heroImages = import.meta.glob(
-  "@/assets/Images/HeroImages/*.{png,webp,avif,jpg,jpeg}",
+export const customers = import.meta.glob(
+  "@/assets/Images/Customers/Avatars/*.{png,webp,avif,jpg,jpeg}",
   { eager: true },
 ) as EagerGlobModule;
 
@@ -35,7 +35,7 @@ export const CUSTOMER_AVATAR_IDS = [1, 2, 3, 4] as const;
 export function getCustomerAvatars() {
   return CUSTOMER_AVATAR_IDS.map((id) => ({
     id,
-    img: resolveGlobAsset(heroImages, `HeroImages/customer${id}.avif`),
+    img: resolveGlobAsset(customers, `Customers/Avatars/customer${id}.avif`),
     alt: `Cliente ${id}`,
   }));
 }

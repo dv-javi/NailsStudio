@@ -283,7 +283,7 @@
   gap: 1.5rem;
   padding: 2rem;
   border-radius: 24px;
-  background: linear-gradient(135deg, #fdf3f5 0%, #f7efef 50%, #fff 100%);
+  background: linear-gradient(135deg, #ffdce3 0%, #f7efef 50%, #fff 100%);
   border: 2px solid #eadede;
 }
 
@@ -405,5 +405,4 @@
     min-height: 88px;
     padding: 1rem 0.5rem;
   }
-
 }

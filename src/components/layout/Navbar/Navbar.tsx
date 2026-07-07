@@ -47,6 +47,7 @@ export default function Navbar({ collapsed, setCollapsed }: NavbarProps) {
             <NavLink
               key={path}
               to={path}
+              aria-label={label}
               className={({ isActive }) =>
                 `nav-item ${isActive ? "active" : ""}`
               }
@@ -60,6 +61,7 @@ export default function Navbar({ collapsed, setCollapsed }: NavbarProps) {
             type="button"
             className="nav-item contact-btn"
             onClick={open}
+            aria-label="Abrir formulario de contacto"
           >
             <i className="ti ti-mail" aria-hidden="true" />
             {!collapsed && <span className="nav-label">Contacto</span>}
@@ -68,8 +70,13 @@ export default function Navbar({ collapsed, setCollapsed }: NavbarProps) {
 
         <div className="sidebar-spacer" />
 
-        <a href={bookLink} target="_blank" rel="noopener noreferrer">
-          <button type="button" className="book-btn">
+        <a
+          href={bookLink}
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Reservar cita (se abre en una nueva pestaña)"
+        >
+          <button type="button" className="book-btn" aria-label="Reservar cita">
             <i className="ti ti-calendar-event" aria-hidden="true" />
             {!collapsed && <span>Reservar cita</span>}
           </button>
@@ -81,6 +88,7 @@ export default function Navbar({ collapsed, setCollapsed }: NavbarProps) {
           <NavLink
             key={path}
             to={path}
+            aria-label={label}
             className={({ isActive }) =>
               `bottom-nav-item ${isActive ? "active" : ""}`
             }
@@ -94,6 +102,7 @@ export default function Navbar({ collapsed, setCollapsed }: NavbarProps) {
           type="button"
           className="bottom-nav-item contact-mobile-btn"
           onClick={open}
+          aria-label="Abrir formulario de contacto"
         >
           <i className="ti ti-mail" aria-hidden="true" />
           <span className="bottom-nav-label">Contacto</span>
